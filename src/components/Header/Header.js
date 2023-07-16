@@ -15,7 +15,7 @@ function Header() {
         <nav className="header">
 
             {/* logo on the left -> img */}
-            <Link to="/">
+            <Link to="/amazon-clone">
                 <img className="header__logo" src="https://www.freepnglogos.com/uploads/amazon-png-logo-vector/large-images-amazon-png-logo-vector-7.png3ft3d1416935166817" alt="logo"></img>
             </Link>
 
@@ -36,7 +36,7 @@ function Header() {
                 </Link>
 
                 {/* 2nd Link */}
-                <Link to="/" className="header__link">
+                <Link to="/amazon-clone" className="header__link">
                     <div className='header__option'>
                         <span className="header__optionLineOne">Returns</span>
                         <span className="header__optionLineTwo">& Orders</span>
@@ -44,7 +44,7 @@ function Header() {
                 </Link>
 
                 {/* 3rd Link */}
-                <Link to="/" className="header__link">
+                <Link to="/amazon-clone" className="header__link">
                     <div className='header__option'>
                         <span className="header__optionLineOne">Your</span>
                         <span className="header__optionLineTwo">Prime</span>

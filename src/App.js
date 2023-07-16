@@ -39,7 +39,7 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/" element={<><Header /><Home /></>} />
+          <Route path="/amazon-clone" element={<><Header /><Home /></>} />
           <Route path="/checkout" element={<><Header /><Checkout /></>} />
           <Route path="/login" element={<><Login /></>} />
         </Routes>
